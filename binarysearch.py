@@ -12,7 +12,7 @@ def binary_search(arr, target):
             high = mid - 1
     return -1  
 numbers = [1, 4, 10, 26, 33, 36, 42, 75, 91]
-target_number = 23
+target_number = 33
 result = binary_search(numbers, target_number)
 if result != -1:
     print("Target found at index", result)
