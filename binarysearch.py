@@ -15,7 +15,7 @@ def binary_search(arr, target):
 
     return -1  
 
-numbers = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+numbers = [1, 12, 22, 35, 45, 56, 67, 78, 89, 91]
 target_number = 23
 
 result = binary_search(numbers, target_number)
