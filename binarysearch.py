@@ -12,7 +12,7 @@ def binary_search(arr, target):
         else:
             high = mid - 1
     return -1  
-numbers = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+numbers = [1, 4, 10, 26, 33, 36, 42, 75, 91]
 target_number = 23
 result = binary_search(numbers, target_number)
 if result != -1:
